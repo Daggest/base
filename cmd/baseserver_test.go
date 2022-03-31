@@ -8,6 +8,6 @@ import (
 
 func TestSomething(t *testing.T) {
 
-	assert.False(t, true, "True is true!")
+	assert.True(t, true, "True is true!")
 
 }
